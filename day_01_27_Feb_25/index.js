@@ -1,9 +1,10 @@
 import express from "express";
+import "dotenv/config";
 
 const app = express();
 
 app.use(express.json()); // method to declare middlewares
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 let teas = [
   {
@@ -93,4 +94,3 @@ app.delete("/teas/:id", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is listening at PORT : ${PORT}`);
 });
-
