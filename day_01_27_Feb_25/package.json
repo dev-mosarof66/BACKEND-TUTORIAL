@@ -1,0 +1,19 @@
+{
+  "name": "day_01_27_feb_25",
+  "version": "1.0.0",
+  "description": "day 01 of 45 day challange of backend development",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "mosarof hossain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
